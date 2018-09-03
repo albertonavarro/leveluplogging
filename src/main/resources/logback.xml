@@ -36,10 +36,21 @@
         </encoder>
     </appender>
 
-
     <root level="all">
         <appender-ref ref="stash" />
         <appender-ref ref="STDOUT" />
-        <appender-ref ref="FILE" />
     </root>
+
+    <logger name="Main1" level="INFO" >
+        <appender-ref ref="FILE" />
+    </logger>
+
+    <logger name="Main2" level="INFO" >
+        <appender-ref ref="FILE" />
+    </logger>
+
+    <logger name="Main3" level="INFO" >
+        <appender-ref ref="FILE" />
+    </logger>
+
 </configuration>
