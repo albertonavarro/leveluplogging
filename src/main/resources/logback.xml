@@ -36,6 +36,18 @@
         </encoder>
     </appender>
 
+    <appender name="FILE4" class="ch.qos.logback.core.FileAppender">
+        <file>logFile4.log</file>
+        <append>true</append>
+        <!-- set immediateFlush to false for much higher logging throughput -->
+        <immediateFlush>true</immediateFlush>
+        <!-- encoders are assigned the type
+             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %X{rid} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
     <root level="all">
         <appender-ref ref="stash" />
         <appender-ref ref="STDOUT" />
@@ -53,4 +65,7 @@
         <appender-ref ref="FILE" />
     </logger>
 
+    <logger name="Main4" level="INFO" >
+        <appender-ref ref="FILE4" />
+    </logger>
 </configuration>
