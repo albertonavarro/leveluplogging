@@ -9,11 +9,14 @@
         <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
             <providers>
                 <timestamp/>
+                <threadName/>
                 <mdc/>
+                <loggerName/>
                 <message/>
                 <logLevel/>
-                <logLevelValue/>
                 <arguments/>
+                <stackTrace/>
+                <stackHash/>
             </providers>
         </encoder>
     </appender>
