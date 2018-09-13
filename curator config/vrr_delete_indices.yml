@@ -28,7 +28,7 @@ actions:
       direction: older
       timestring: '%Y-%m-%d'
       unit: days
-      unit_count: 0
+      unit_count: 371
       exclude:
   2:
     action: delete_indices
@@ -52,7 +52,7 @@ actions:
       direction: older
       timestring: '%Y-%m-%d'
       unit: days
-      unit_count: 0
+      unit_count: 90
       exclude:
   3:
     action: delete_indices
@@ -76,5 +76,5 @@ actions:
       direction: older
       timestring: '%Y-%m-%d'
       unit: days
-      unit_count: 0
+      unit_count: 14
       exclude:

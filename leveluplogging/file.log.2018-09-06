@@ -1,5 +1,0 @@
-{"@timestamp":"2018-09-06T00:15:37.171+02:00","rid":"8b29ef29-cb63-45bc-9ebb-1916305a59ee","message":"New Market Status marketId=1234 newStatus=ready","level":"INFO","level_value":20000,"marketId":1234,"newStatus":"ready"}
-{"@timestamp":"2018-09-06T00:15:37.210+02:00","rid":"8b29ef29-cb63-45bc-9ebb-1916305a59ee","message":"Some more logging","level":"INFO","level_value":20000}
-{"@timestamp":"2018-09-06T20:19:58.645+02:00","thread_name":"main","logger_name":"Main3","message":"New Market Status marketId=1234 newStatus=ready","level":"INFO","marketId":1234,"newStatus":"ready"}
-{"@timestamp":"2018-09-06T20:27:28.007+02:00","thread_name":"main","rid":"b5fab580-12f4-4266-8a97-927d03d1b01a","logger_name":"Main4","message":"New Market Status marketId=1234 newStatus=ready","level":"INFO","marketId":1234,"newStatus":"ready"}
-{"@timestamp":"2018-09-06T20:27:28.043+02:00","thread_name":"main","rid":"b5fab580-12f4-4266-8a97-927d03d1b01a","logger_name":"Main4","message":"Some more logging","level":"INFO"}

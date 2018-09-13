@@ -1,4 +1,0 @@
-{"@timestamp":"2018-09-03T22:45:10.928+02:00","message":"New Market Status marketId=1234 newStatus=ready","level":"INFO","level_value":20000}
-{"@timestamp":"2018-09-03T22:55:44.941+02:00","message":"New Market Status marketId=1234 newStatus=ready","level":"INFO","level_value":20000,"marketId":1234,"newStatus":"ready"}
-{"@timestamp":"2018-09-03T23:59:31.046+02:00","rid":"a5f2741e-3f94-40b3-a056-e93f8170853f","message":"New Market Status marketId=1234 newStatus=ready","level":"INFO","level_value":20000,"marketId":1234,"newStatus":"ready"}
-{"@timestamp":"2018-09-03T23:59:31.075+02:00","rid":"a5f2741e-3f94-40b3-a056-e93f8170853f","message":"Some more logging","level":"INFO","level_value":20000}
