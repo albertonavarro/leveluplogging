@@ -327,21 +327,17 @@ filebeat.inputs:
 - type: log
   enabled: true
   paths:
-    - /home/alberto/code/leveluplogging/*.json
+    - /path/to/json/logs/*.json
   encoding: utf-8
   fields:
     logschema: vrr
     service: leveluplogging 
   
 - type: log
-
   enabled: false
-
   paths:
-    - /home/alberto/code/leveluplogging/*.log
-    
+    - /path/to/plaintext/logs/*.log
   encoding: utf-8
-
   fields:
     logsystem: classic1
     service: leveluplogging
